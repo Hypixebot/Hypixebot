@@ -41,7 +41,7 @@ def system():
      elif "YouTube" in inp:
          os.system("termux-open https://m.youtube.com")
     
- elif "Google" in inp:
+     elif "Google" in inp:
          os.system("termux-open https://www.google.co.in/")    
        
      elif "contact" in inp:
