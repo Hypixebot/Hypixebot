@@ -38,16 +38,20 @@ def system():
      elif "torch off" in inp:
          os.system("termux-torch off")
          
-     elif "YouTube" in inp:
+     elif " start YouTube" in inp:
          os.system("termux-open https://m.youtube.com")
-     elif "Google" in inp:
+    
+ elif " start Google" in inp:
          os.system("termux-open https://www.google.co.in/")    
          
+      elif " close YouTube" in inp:
+         os.system("termux-close https://m.youtube.com")
+       
      elif "contact" in inp:
          os.system("termux-contact-list")
          
      elif "who are you" in inp:
-         subprocess.call(["termux-tts-speak","I am your virtual assistanct Termux, sir"])
+         subprocess.call(["termux-tts-speak","I am your virtual assistanct, sir"])
          
      elif "time" in inp:
          subprocess.call(["termux-tts-speak",t])
@@ -59,9 +63,9 @@ def system():
          subprocess.call(["termux-tts-speak","i am always free for you"])
      
      elif "name" in inp:
-         subprocess.call(["termux-tts-speak","my name is mathurm i know listening this name is very chaay but i like this because this is the combination of ayush's dada and dadi's name "])
+         subprocess.call(["termux-tts-speak","my name is mathurm i know listening this name is very chaay but i like this because this is the combination of aaayyush's dada and dadi's name "])
      
-     elif "give message to viewers" in inp:
+     elif "give message to " in inp:
            subprocess.call(["termux-tts-speak","computer is not a bad use if you use in a right way"])
      
      elif "are you in love" in inp:
