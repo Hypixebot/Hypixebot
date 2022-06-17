@@ -1,7 +1,6 @@
 import subprocess
 import os
 import time
-import date
 from datetime import datetime
 import sys
 now = datetime.now()
