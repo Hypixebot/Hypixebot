@@ -53,7 +53,7 @@ def system():
      elif "hi" in inp:
           subprocess.call(["termux-tts-speak","I am your virtual assistanct, sir"])
     
-      elif "time" in inp:
+     elif "time" in inp:
          subprocess.call(["termux-tts-speak",t])
          
      elif "what are you doing" in inp:
