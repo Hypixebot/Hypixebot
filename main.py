@@ -38,10 +38,10 @@ def system():
      elif "torch off" in inp:
          os.system("termux-torch off")
          
-     elif " start YouTube" in inp:
+     elif "YouTube" in inp:
          os.system("termux-open https://m.youtube.com")
     
- elif " start Google" in inp:
+ elif "Google" in inp:
          os.system("termux-open https://www.google.co.in/")    
        
      elif "contact" in inp:
