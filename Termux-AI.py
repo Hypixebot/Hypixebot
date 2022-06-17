@@ -4,9 +4,6 @@ import os
 import subprocess
 import date
 
-tday = datetime.date.tday()
-print (tday)
-
 os.system('screenfetch')
 print('\033[1m' + '\033[91m'+'     ///   CREATED BY AYUSH KUMAR BARNWAL   ///')
 def wish():
