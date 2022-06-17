@@ -62,7 +62,7 @@ def system():
      elif "name" in inp:
          subprocess.call(["termux-tts-speak","my name is mathurm i know listening this name is very chaay but i like this because this is the combination of aaayyush's dada and dadi's name "])
      
-     elif "give message to " in inp:
+     elif "give today's message" in inp:
            subprocess.call(["termux-tts-speak","computer is not a bad use if you use in a right way"])
      
      elif "are you in love" in inp:
