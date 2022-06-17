@@ -43,9 +43,6 @@ def system():
     
  elif " start Google" in inp:
          os.system("termux-open https://www.google.co.in/")    
-         
-      elif " close YouTube" in inp:
-         os.system("termux-close https://m.youtube.com")
        
      elif "contact" in inp:
          os.system("termux-contact-list")
