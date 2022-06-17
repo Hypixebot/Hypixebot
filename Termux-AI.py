@@ -1,8 +1,8 @@
 import time
+Import date
 import datetime
 import os
 import subprocess
-import date
 
 os.system('screenfetch')
 print('\033[1m' + '\033[91m'+'     ///   CREATED BY AYUSH KUMAR BARNWAL   ///')
