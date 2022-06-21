@@ -56,7 +56,7 @@ def system():
      elif "Recharge Dish Tv" in inp:
           subprocess.call(["termux-tts-speak","ok sir wait 5 minutes. i am hacking DishTV now enjoy saas baahhuu serial"])
 
-     elif "recharge Dish Tv" in inp:
+     elif "recharge Dish TV" in inp:
           subprocess.call(["termux-tts-speak","ok sir wait 5minutes. i am hacking DishTV now enjoy saas baahhuu serial"])
 
 
