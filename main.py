@@ -53,10 +53,10 @@ def system():
      elif "who are you" in inp:
           subprocess.call(["termux-tts-speak","I am your virtual assistanct, sir"])
     
-     elif "Recharge dishtv" in inp:
+     elif "Recharge Dish Tv" in inp:
           subprocess.call(["termux-tts-speak","ok sir wait 5 minutes. i am hacking DishTV now enjoy saas baahhuu serial"])
 
-     elif "recharge dishtv" in inp:
+     elif "recharge Dish tv" in inp:
           subprocess.call(["termux-tts-speak","ok sir wait 5minutes. i am hacking DishTV now enjoy saas baahhuu serial"])
 
 
